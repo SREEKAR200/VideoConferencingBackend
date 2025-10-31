@@ -1,9 +1,0 @@
-flask
-fastapi
-uvicorn
-openai-whisper
-pyannote.audio
-transformers
-librosa
-soundfile
-python-dotenv
