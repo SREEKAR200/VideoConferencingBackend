@@ -10,6 +10,10 @@ from .utils.logger import setup_logging, log_request, log_error, log_success
 from pydantic import BaseModel
 import uvicorn
 
+from dotenv import load_dotenv
+load_dotenv()
+
+
 # ----- FastAPI App -----
 app = FastAPI(
     title="Speech Conferencing API",
